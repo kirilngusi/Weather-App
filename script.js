@@ -39,7 +39,7 @@ function addWeather(data) {
     info.innerHTML = `${data.weather[0].main || DEFAULT1}`;
 
     //clean
-    main.innerHTML= "";
+    search.value= '';
 
     // main.appendChild()
 }
